@@ -1,7 +1,5 @@
 # 🚀 Proyecto desarrollado en React
 
-¡Bienvenido/a a mi primer proyecto desarrollado con **React.js**! Este proyecto marca el inicio de mi camino en el desarrollo de aplicaciones modernas y dinámicas. Espero que encuentres interesante mi trabajo. 😊
-
 ---
 
 ## 🌟 Características
