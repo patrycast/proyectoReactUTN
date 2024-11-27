@@ -47,8 +47,33 @@ function App() {
   return (
     <>
       <h1>Productos</h1>
-      <BtnCategory text={"electronica"} category={"electronics"} functionFather={handleSetCategory}/> 
-      {productos.map( (producto)=>( <Articulo key={producto.id} articulo={producto}/>))}
+      <BtnCategory 
+        text={"Electrónica"} 
+        category={"electronics"} 
+        functionFather={handleSetCategory}
+      /> 
+
+      <BtnCategory 
+        text={"Joyeria"} 
+        category={"jewelery"} 
+        functionFather={handleSetCategory}
+      />  
+
+      <BtnCategory 
+        text={"Ropa de Hombre"} 
+        category={"men's clothing"} 
+        functionFather={handleSetCategory}
+      />
+
+      <BtnCategory 
+        text={"Ropa de Mujer"} 
+        category={"women's clothing"} 
+        functionFather={handleSetCategory}
+      />
+
+      {productos.map( (producto)=>( 
+        <Articulo key={producto.id} articulo={producto}/>
+        ))}
    
     </>
   )
