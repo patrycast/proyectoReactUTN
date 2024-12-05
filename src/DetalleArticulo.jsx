@@ -21,7 +21,7 @@ const DetalleArticulo= ()=>{
           setIsLoading(false)
         }
         fetchBack()
-      },[])   
+      },[id])   
 
       if(isLoading){
         return(<h1>Cargando</h1>)
